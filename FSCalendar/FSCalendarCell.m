@@ -220,8 +220,6 @@
             }
         }
     }
-    if (self.isSelected)
-        [self setBackgroundColor:[UIColor grayColor]];
 }
 
 - (BOOL)isWeekend
@@ -331,7 +329,9 @@
     }
     return _preferedBorderDefaultColor ?: _appearance.borderDefaultColor;
 }
-
+//
+//if (self.isSelected)
+//[self setBackgroundColor:[UIColor grayColor]];
 - (FSCalendarCellShape)cellShape
 {
     return _preferedCellShape ?: _appearance.cellShape;

@@ -50,6 +50,8 @@ typedef NS_ENUM(NSUInteger, FSCalendarScrollDirection) {
 - (NSDate *)minimumDateForCalendar:(FSCalendar *)calendar;
 - (NSDate *)maximumDateForCalendar:(FSCalendar *)calendar;
 
+- (UIColor*)backgroundForDate:(NSDate *)date;
+
 @end
 
 @protocol FSCalendarDelegateAppearance <FSCalendarDelegateAppearanceDeprecatedProtocol>

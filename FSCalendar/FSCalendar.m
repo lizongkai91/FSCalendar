@@ -1629,6 +1629,10 @@ typedef NS_ENUM(NSUInteger, FSCalendarOrientation) {
 
 #pragma mark - Delegate
 
+- (UIColor *)setCellBackgroundColor:(NSDate *)date{
+    return [_dataSource backgroundForDate:date];
+}
+
 - (BOOL)shouldSelectDate:(NSDate *)date
 {
     if (_delegate && [_delegate respondsToSelector:@selector(calendar:shouldSelectDate:)]) {
