@@ -220,6 +220,8 @@
             }
         }
     }
+    if (self.dateIsSelected)
+        [self setBackgroundColor:[UIColor grayColor]];
 }
 
 - (BOOL)isWeekend
