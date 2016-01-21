@@ -220,7 +220,7 @@
             }
         }
     }
-    if (self.dateIsSelected)
+    if (self.isSelected)
         [self setBackgroundColor:[UIColor grayColor]];
 }
 
