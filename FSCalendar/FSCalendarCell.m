@@ -87,6 +87,7 @@
                                         diameter);
     _backgroundLayer.borderWidth = 1.0;
     _backgroundLayer.borderColor = [UIColor clearColor].CGColor;
+    _backgroundLayer.lineWidth = 2.0;
     
     CGFloat eventSize = _backgroundLayer.frame.size.height/6.0;
     _eventLayer.frame = CGRectMake((_backgroundLayer.frame.size.width-eventSize)/2+_backgroundLayer.frame.origin.x, CGRectGetMaxY(_backgroundLayer.frame)+eventSize*0.17, eventSize*0.83, eventSize*0.83);

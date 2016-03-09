@@ -93,17 +93,17 @@
         
         _titleColors = [NSMutableDictionary dictionaryWithCapacity:5];
         _titleColors[@(FSCalendarCellStateNormal)]      = [UIColor darkTextColor];
-        _titleColors[@(FSCalendarCellStateSelected)]    = [UIColor blackColor];
+        _titleColors[@(FSCalendarCellStateSelected)]    = [UIColor darkTextColor];
         _titleColors[@(FSCalendarCellStateDisabled)]    = [UIColor grayColor];
         _titleColors[@(FSCalendarCellStatePlaceholder)] = [UIColor lightGrayColor];
-        _titleColors[@(FSCalendarCellStateToday)]       = [UIColor blackColor];
+        _titleColors[@(FSCalendarCellStateToday)]       = [UIColor darkTextColor];
         
         _subtitleColors = [NSMutableDictionary dictionaryWithCapacity:5];
         _subtitleColors[@(FSCalendarCellStateNormal)]      = [UIColor darkGrayColor];
-        _subtitleColors[@(FSCalendarCellStateSelected)]    = [UIColor whiteColor];
+        _subtitleColors[@(FSCalendarCellStateSelected)]    = [UIColor darkGrayColor];
         _subtitleColors[@(FSCalendarCellStateDisabled)]    = [UIColor lightGrayColor];
         _subtitleColors[@(FSCalendarCellStatePlaceholder)] = [UIColor lightGrayColor];
-        _subtitleColors[@(FSCalendarCellStateToday)]       = [UIColor whiteColor];
+        _subtitleColors[@(FSCalendarCellStateToday)]       = [UIColor darkGrayColor];
         
         _borderColors[@(FSCalendarCellStateSelected)] = [UIColor clearColor];
         _borderColors[@(FSCalendarCellStateNormal)] = [UIColor clearColor];
